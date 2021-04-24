@@ -49,10 +49,10 @@
     </ul>
 
     <h3>@Unordered Inline item</h3>
-    <ul class="list-no-bullets list-items-inline">
-        <li>Inline list 1</li>
-        <li>Inline list 2</li>
-        <li>Inline list 3</li>
+    <ul class="list-no-bullets">
+        <li class="list-items-inline">Inline list 1</li>
+        <li class="list-items-inline">Inline list 2</li>
+        <li class="list-items-inline">Inline list 3</li>
     </ul>
     
     <h3>@reverse ordered list</h3>
@@ -67,21 +67,22 @@
 
     <h2>@nav</h2>
 
-    <nav>
-        <div>BrandName</div>
-        <ul>
-            <li><a href="/">list 1</a></li>
-            <li><a href="/">list 2</a></li>
-            <li><a href="/">list 3</a></li>
+    <nav class="navigation container">
+        <div class="nav-brand">BrandName</div>
+        <ul class="list-no-bullets nav-align-right">
+            <li class="list-items-inline"><a class="link link-active" href="/">Home</a></li>
+            <li class="list-items-inline"><a class="link" href="/">list 2</a></li>
+            <li class="list-items-inline"><a class="link" href="/">list 3</a></li>
         </ul>
-
     </nav>
 
 
     <h2>@header</h2>
-    <header>
-        <img src="images/hero.svg"/>
-        <h1>Heading inside </h1>
+    <header class="hero">
+        <img class="hero-img"src="images/hero.svg"/>
+        <h1 class="hero-heading"> Heading inside 
+            <span class="heading-inverted">test</span>
+        </h1>
     </header>
 
     <hr>
