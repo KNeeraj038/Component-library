@@ -3,12 +3,14 @@
 :root{
     --primary-color:#4F46E5;
     --dark-grey:#6B7280;
+    --off-white:#F3F4F6;
 }
 
 
 body{
     font-family: 'Source Sans Pro',
     sans-serif;
+    margin: 0rem;
 }
 
 .container{
@@ -52,7 +54,9 @@ hr{
 .navigation{
     background-color: var(--primary-color);
     color:white;
-    
+    padding: 1rem;
+    border-bottom-left-radius: 1.5rem;
+    border-bottom-right-radius: 1.5rem;
 }
 
 .navigation .link{
@@ -87,4 +91,36 @@ hr{
 
 .hero .hero-heading .heading-inverted{
     color:var(--primary-color);
+}
+
+.section{
+    padding:0rem 0rem 0.5rem 0rem;
+    text-align: center;
+}
+
+
+.section h3 {
+    /* text-align: center; */
+    padding: 1rem;
+}
+
+.ow{
+    background-color: var(--off-white);
+}
+
+footer{
+    padding:2rem;
+    background-color: var(--primary-color);
+    text-align: center;
+    color: white;
+    border-top-right-radius: 1.5rem;
+    border-top-left-radius: 1.5rem;
+}
+
+footer .link{
+    color: white;
+}
+
+footer ul{
+    padding-inline-start:0rem;
 }
