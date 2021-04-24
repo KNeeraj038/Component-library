@@ -38,6 +38,14 @@ hr{
     margin:2rem 0rem;
 }
 
+.list-no-bullets{
+    list-style: none;
+}
+
+.list-items-inline{
+    display: inline;
+    padding: 0rem 0.5rem;
+}
 
 
 
